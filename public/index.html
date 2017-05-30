@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FCC calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="calcBody">
+  <div id="logo">
+    FCC calculator! (use mouse or keyboard)
+  </div>
+  <div class="display">
+    <div class="mainDis-table">
+      <div id="mainDis-cell"><div id="mainDis-content">0</div></div>
+    </div>
+    <div class="memDis-table">
+      <div id="memDis-cell"><div id="memDis-content"> 0</div></div>
+    </div>
+  </div>
+  <div class="keypad">
+    <div class="top-block">
+      <div class="table">
+        <div class="row">
+          <div class="key cell b-R b-bot" id="AC">AC</div>
+          <div class="key cell b-R b-bot" id="CE">CE</div>
+          <div class="key cell b-R b-bot" id="divide">/</div>
+          <div class="key cell b-bot" id="multiply">*</div>
+        </div>
+        <div class="row">
+          <div class="key cell b-R b-bot" id="7">7</div>
+          <div class="key cell b-R b-bot" id="8">8</div>
+          <div class="key cell b-R b-bot" id="9">9</div>
+          <div class="key cell b-bot" id="minus">-</div>
+        </div>
+        <div class="row">
+          <div class="key cell b-R b-bot" id="4">4</div>
+          <div class="key cell b-R b-bot" id="5">5</div>
+          <div class="key cell b-R b-bot" id="6">6</div>
+          <div class="key cell b-bot" id="plus">+</div>
+        </div>
+      </div> 
+    </div>
+    <div class="bottom-block">
+      <div class="double-row">
+        <div class="half-table">      
+          <div class="key cell b-R b-bot" id="1">1</div>
+          <div class="key cell b-R b-bot" id="2">2</div>
+          <div class="key cell b-R b-bot" id="3">3</div>
+        </div>
+        <div class="half-table">
+          <div class="key zero-cell b-R b-bot" id="0">0</div>
+          <div class="key cell b-R b-bot" id=".">.</div>
+        </div> 
+      </div>
+      <div id="equal-block">
+        <div class="table">
+          <div class="key equal-cell b-bot" id="equal">=</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="scripts/main.js">
+</script>
+
+</body>
+</html>
